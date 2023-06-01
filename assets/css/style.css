@@ -47,7 +47,7 @@ body {
   color: #659d89;
 }
 
-.header-container > ul {
+.socialmedia_icons {
   list-style-type: none;
   margin-top: 50px;
   text-align: right;
@@ -120,12 +120,12 @@ main {
 
 .article_right {
   padding-right: 80px;
-  margin-top: 100px;
   float: right;
 }
 
-.article_right:nth-last-of-type(2) {
-  margin-bottom: 0;
+.clear:nth-of-type(1) {
+  height: 0;
+  padding-bottom: 100px;
 }
 
 .clear {
@@ -171,4 +171,26 @@ footer {
   color: #666666;
   font-size: 10px;
   margin-top: 83px;
+}
+
+/* #===Hover-Effekte=== */
+
+.navbar > li > a:hover {
+  color: #528070;
+}
+
+.header_link:hover {
+  color: black;
+}
+
+.socialmedia_icons > li > a:hover {
+  filter: blur(1px);
+}
+
+main img:hover {
+  box-shadow: 0 0 5px 0 darkgray;
+}
+
+footer > a:hover {
+  color: #555;
 }
