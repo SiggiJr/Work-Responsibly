@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+/* #===Header=== */
+
+.header-container {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 101px;
+}
+
+.navbar {
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.navbar > li {
+  display: inline-block;
+  padding-right: 22.28px;
+}
+
+.navbar > li > a {
+  color: #659d89;
+  text-decoration: none;
+}
+
+.header_main_text {
+  font-size: 50px;
+  margin-top: 103px;
+}
+
+.header_main_text::first-line {
+  color: #659d89;
+}
+
+.header-container > ul {
+  list-style-type: none;
+  margin-top: 50px;
+  text-align: right;
+}
+
+a.header_link {
+  display: inline-block;
+  margin-top: 83px;
+  color: #666666;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* #===Main=== */
+
+main {
+  padding-top: 50px;
+}
+
+.main_container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.main_container:nth-of-type(1) {
+  padding-bottom: 83.5px;
+}
+
+.main_container:nth-of-type(2) {
+  margin-top: 50px;
+  padding-bottom: 181px;
+}
+
+.main_container > h2 {
+  font-size: 20px;
+}
+
+.main_container > p {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 80px;
+}
+
+.gifs > div:first-of-type {
+  margin-bottom: 52.5px;
+}
+
+.gifs img {
+  display: inline-block;
+}
+
+.gifs img:first-of-type {
+  margin-left: 80px;
+  margin-right: 52.48px;
+}
+
+.gifs img:last-of-type {
+  margin-left: 52.47px;
+}
+
+.section_resources {
+  margin-top: 95px;
+}
+
+.article_left {
+  display: inline-block;
+  padding-left: 80px;
+  margin-bottom: 100px;
+}
+
+.article_right {
+  padding-right: 80px;
+  margin-top: 100px;
+  float: right;
+}
+
+.article_right:nth-last-of-type(2) {
+  margin-bottom: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.article_text {
+  text-align: center;
+}
+
+.img_text_top {
+  font-size: 12px;
+  color: #666;
+  margin-top: 17.5px;
+  margin-bottom: 20px;
+}
+
+.img_text_middle {
+  font-size: 20px;
+}
+
+.img_text_bottom {
+  font-size: 12px;
+  color: #666;
+  margin-top: 20px;
+}
+
+/* #===Footer==== */
+
+footer {
+  padding-top: 84px;
+  padding-bottom: 37.61px;
+  text-align: center;
+}
+
+.all_catagories_btn {
+  font-size: 20px;
+  color: #666666;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #666666;
+  font-size: 10px;
+  margin-top: 83px;
+}
